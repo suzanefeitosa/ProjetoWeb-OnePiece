@@ -163,7 +163,11 @@ li a {
         background-size: cover;
 
     }
+ .text {
 
+    width: 90%;
+
+ }
     .img-title {
 
    margin-top: 25px;
