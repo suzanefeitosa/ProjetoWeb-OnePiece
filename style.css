@@ -178,7 +178,15 @@ li a {
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 260px;
+   width: 300px;
+
+    }
+
+    .container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
@@ -202,17 +210,15 @@ li a {
 
     .characters {
 
-        margin-top: 60px;
-        margin-left: 65px;
-        width: 320px;
+    
+        width: 500px;
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
+        max-width: 100%;
+        min-width: 100%;
+        
         
     }
 
-    .img-footer {
-        display: flex;
-        text-align: center;
-    }
 }
