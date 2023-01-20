@@ -168,13 +168,17 @@ li a {
     width: 90%;
 
  }
+ .title {
+
+    width: 100%;
+ }
     .img-title {
 
    margin-top: 25px;
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 325px;
+   width: 260px;
 
     }
 
@@ -202,7 +206,13 @@ li a {
         margin-left: 65px;
         width: 320px;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+    }
+
+    .img-footer {
+        display: flex;
+        text-align: center;
     }
 }
